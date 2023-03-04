@@ -17,7 +17,6 @@ body {
 .container {
   width: 90%;
   margin: auto;
-  padding-right: 0px;
 }
 
 .navbar {
@@ -241,6 +240,7 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
   z-index: 10;
+  padding-top: 50px;
 }
 
 
@@ -301,7 +301,7 @@ body {
   display: flex;
   column-gap: 30px;
   justify-content: center;
-  padding-bottom: 120px;
+  padding-bottom: 90px;
 }
 
 .slick-dots li button:before {
@@ -309,8 +309,8 @@ body {
   background: #F9C83B;
   border-radius: 30px;
   border: 1px solid white;
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
 }
 
 .slick-dots {
@@ -330,6 +330,7 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   padding: 20px 103px 20px 63px;
+  color: black;
 }
 
 .main-content__button img {
@@ -357,7 +358,7 @@ body {
   }
 
   .main-content__button{
-  padding-bottom: 180px;
+  padding-bottom: 90px;
   }
 
 }
@@ -371,9 +372,29 @@ body {
   .main-content--circle {
     display: none;
   }
+
+  .main-content__title {
+    font-size: 5vw; 
+    line-height: 5.5vw;
+  }
+  
+  .main-content__text {
+    font-size: 2.5vw;
+    line-height: 2vw; 
+  }
 }
 
 @media (max-width: 650px) {
+  
+  .main-content__title {
+    font-size: 7vw; 
+    line-height: 9.5vw;
+  }
+  
+  .main-content__text {
+    font-size: 3.5vw;
+  }
+
   .navbar-button {
     display: none;
   }
@@ -410,7 +431,7 @@ body {
   }
 
   .menu-items li {
-    font-size: 1.6rem;
+    font-size: 1rem;
     padding-bottom: 30px;
   }
 
@@ -422,6 +443,6 @@ body {
   }
 
   .main-content__button{
-    padding-bottom: 220px;
+    padding-bottom: 120px;
     }
 }
