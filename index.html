@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" href="./img/Group 48095470.svg" type="image/svg">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" href="./style.css">
+  <title>Barberian</title>
+</head>
+<body>
+
+  <header class="header">
+    <nav>
+        <div class="container">
+          <div class="navbar">
+          <div class="nav-container">
+            <input class="checkbox" type="checkbox" />
+            <div class="hamburger-lines" >
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+          <div class="menu-items " >
+            <div class="menu-items--wrapper">
+              <img class="menu-items__icon" src="./img/Group 48095470.svg" alt="icon">
+            <li><h3>home</h3></li>
+            <li><h3>about</h3></li>
+            <li><h3>services</h3></li>
+            <li><h3>news</h3></li>
+            <li><h3>pages</h3></li>
+            <li><h3>contact</h3></li>
+
+            <div class="menu-items__button">
+              <button>book now</button>
+              <svg
+               width="10" 
+               height="10" 
+               viewBox="0 0 16 10" 
+               fill="none" 
+               xmlns="http://www.w3.org/2000/svg"
+               >
+                <path 
+                d="M0 5H15M15 5L11 1M15 5L11 9" 
+                stroke="white"
+                />
+                </svg>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-info">
+          <div class="navbar-info__option">
+              <select >
+                <option value="home">home</option>
+                <option value="about">home</option>
+                <option value="services">home</option>
+              </select>
+    
+              <select >
+                <option value="about">about</option>
+                <option value="home">about</option>
+                <option value="services">about</option>
+              </select>
+
+              <select >
+                <option value="services">services</option>
+                <option value="about">services</option>
+                <option value="home">services</option>
+              </select>
+          </div>
+
+          <img class="navbar-info__logo" src="./img/Group 48095470.svg" alt="logo">
+
+          <div class="navbar-info__option">
+            <select >
+              <option value="news">news</option>
+              <option value="pages">news</option>
+              <option value="contact">news</option>
+            </select>
+  
+            <select >
+              <option value="pages">pages</option>
+              <option value="news">pages</option>
+              <option value="contact">pages</option>
+            </select>
+  
+            <select >
+              <option value="contact">contact</option>
+              <option value="pages">contact</option>
+              <option value="news">contact</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="navbar-button">
+          <button>book now</button>
+          <svg
+           width="16" 
+           height="10" 
+           viewBox="0 0 16 10" 
+           fill="none" 
+           xmlns="http://www.w3.org/2000/svg"
+           >
+            <path 
+            d="M0 5H15M15 5L11 1M15 5L11 9" 
+            stroke="white"
+            />
+            </svg>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+      <div class="main">
+        <div class="main-content">
+          <h1 class="main-content__title">WE WILL <span>KEEP YOU</span> <br> AN IMPECCABLE LOOK</h1>
+          <p class="main-content__text">YOU WANT IT WE CUT IT FOR YOU</p>
+          <div class="main-content__button">
+            <button>about us</button>
+            <img src="./img/Vector 10.svg" alt="logo">
+          </div>
+        </div>
+
+        <div class="main-content">
+          <h1 class="main-content__title">WE WILL <span>KEEP YOU</span> <br> AN IMPECCABLE LOOK</h1>
+          <p class="main-content__text">YOU WANT IT WE CUT IT FOR YOU</p>
+          <div class="main-content__button">
+            <button>about us</button>
+            <img src="./img/Vector 10.svg" alt="logo">
+          </div>
+        </div>
+
+        <div class="main-content">
+          <h1 class="main-content__title">WE WILL <span>KEEP YOU</span> <br> AN IMPECCABLE LOOK</h1>
+          <p class="main-content__text">YOU WANT IT WE CUT IT FOR YOU</p>
+          <div class="main-content__button">
+            <button>about us</button>
+            <img src="./img/Vector 10.svg" alt="logo">
+          </div>
+        </div>
+      </div>
+  
+      <div class="main-content--circle">
+        <div class="main-content--circle__left">
+          <img src="./img/Ellipse 1132.svg" alt="img">
+          <img src="./img/Arrow.svg" alt="">
+        </div>
+        <div class="main-content--circle__right">
+          <img src="./img/Ellipse 1132 (1).svg" alt="">
+          <img src="./img/Arrow (1).svg" alt="">
+        </div>
+      </div>
+  </main>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+  $('.main').slick({
+    dots: true,
+    prevArrow: 'main-content--circle__left.slick-prev',
+    nextArrow: 'main-content--circle__right.slick-next'
+  });
+});
+  </script>
+
+</body>
+</html>
